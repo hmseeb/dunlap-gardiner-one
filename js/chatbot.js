@@ -21,7 +21,7 @@
       response: 'Our criminal defense team provides aggressive, experienced representation when your freedom is on the line. We handle:<br><br>• DUI / DWI<br>• Drug offenses<br>• Assault & battery<br>• Theft & fraud<br>• Felony charges<br>• Misdemeanors<br>• Probation violations<br><br>If you\'ve been arrested or charged, contact us immediately. <a href="criminal-law.html">Learn more about criminal defense →</a><br><a href="contact-us.html">Schedule a free consultation →</a>'
     },
     {
-      patterns: ['about', 'firm', 'history', 'founded', 'established', 'started', 'when', 'background'],
+      patterns: ['about', 'firm', 'history', 'founded', 'established', 'started', 'background'],
       response: 'Dunlap Gardiner, LLP was founded in 2009 by <strong>Wesley C. Dunlap</strong> and <strong>Brian M. Gardiner</strong>, two friends from Georgia State University College of Law. Originally based in Douglasville, GA, the firm relocated to Hiram in 2014 and later opened a second office in McDonough, Georgia. We\'ve grown to five experienced attorneys and a support staff of over twenty. <a href="about-us.html">Learn more about our firm →</a>'
     },
     {
