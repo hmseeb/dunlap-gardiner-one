@@ -17,6 +17,10 @@
       response: 'I\'m the Dunlap Gardiner virtual assistant! I can answer questions about our firm, practice areas, attorneys, office locations, and more. What would you like to know?'
     },
     {
+      patterns: ['criminal', 'crime', 'arrested', 'charges', 'felony', 'misdemeanor', 'defense', 'dui', 'dwi', 'drug', 'drugs', 'assault', 'theft', 'probation', 'jail', 'prison'],
+      response: 'Our criminal defense team provides aggressive, experienced representation when your freedom is on the line. We handle:<br><br>• DUI / DWI<br>• Drug offenses<br>• Assault & battery<br>• Theft & fraud<br>• Felony charges<br>• Misdemeanors<br>• Probation violations<br><br>If you\'ve been arrested or charged, contact us immediately. <a href="criminal-law.html">Learn more about criminal defense →</a><br><a href="contact-us.html">Schedule a free consultation →</a>'
+    },
+    {
       patterns: ['about', 'firm', 'history', 'founded', 'established', 'started', 'when', 'background'],
       response: 'Dunlap Gardiner, LLP was founded in 2009 by <strong>Wesley C. Dunlap</strong> and <strong>Brian M. Gardiner</strong>, two friends from Georgia State University College of Law. Originally based in Douglasville, GA, the firm relocated to Hiram in 2014 and later opened a second office in McDonough, Georgia. We\'ve grown to five experienced attorneys and a support staff of over twenty. <a href="about-us.html">Learn more about our firm →</a>'
     },
@@ -31,10 +35,6 @@
     {
       patterns: ['practice', 'areas', 'services', 'what do you do', 'specialize', 'handle', 'cases', 'legal help', 'legal services'],
       response: 'We offer a wide range of legal services:<br><br>• <strong>Civil Litigation</strong> — General civil matters in and out of court<br>• <strong>Criminal Defense</strong> — DUI, drug offenses, felonies & more<br>• <strong>HOA & Community Law</strong> — Covenants, bylaws, representation<br>• <strong>Collections & Creditor Rights</strong> — Debt collection & bankruptcy<br>• <strong>Banking & Finance Law</strong> — Institutional client representation<br>• <strong>Business Law</strong> — Formation, disputes, and guidance<br><br>Which area can we help you with?'
-    },
-    {
-      patterns: ['criminal', 'crime', 'arrested', 'charges', 'felony', 'misdemeanor', 'defense', 'dui', 'dwi', 'drug', 'drugs', 'assault', 'theft', 'probation', 'jail', 'prison'],
-      response: 'Our criminal defense team provides aggressive, experienced representation when your freedom is on the line. We handle:<br><br>• DUI / DWI<br>• Drug offenses<br>• Assault & battery<br>• Theft & fraud<br>• Felony charges<br>• Misdemeanors<br>• Probation violations<br><br>If you\'ve been arrested or charged, contact us immediately. <a href="criminal-law.html">Learn more about criminal defense →</a><br><a href="contact-us.html">Schedule a free consultation →</a>'
     },
     {
       patterns: ['hoa', 'homeowner', 'association', 'community', 'covenant', 'bylaw', 'condo', 'neighborhood'],
@@ -65,12 +65,12 @@
       response: 'You can reach us at:<br><br>📞 <strong><a href="tel:7704895122">770-489-5122</a></strong><br>🕐 Monday–Friday, 9:00 AM – 5:00 PM<br><br>Or visit our <a href="contact-us.html">contact page</a> to send us a message or request a free consultation.'
     },
     {
-      patterns: ['hours', 'open', 'available', 'schedule', 'time', 'when can', 'appointment'],
-      response: 'Our offices are open:<br><br>🕐 <strong>Monday – Friday: 9:00 AM – 5:00 PM</strong><br><br>To schedule an appointment or free consultation, call us at <a href="tel:7704895122">770-489-5122</a> or visit our <a href="contact-us.html">contact page</a>.'
-    },
-    {
       patterns: ['consultation', 'free', 'consult', 'meeting', 'talk', 'speak', 'discuss', 'advice'],
       response: 'We offer <strong>free consultations</strong>! It\'s the best way to discuss your legal needs with our attorneys. To schedule yours:<br><br>📞 Call <a href="tel:7704895122">770-489-5122</a><br>💻 Or visit our <a href="contact-us.html">contact page</a> to send us a message.<br><br>We look forward to helping you!'
+    },
+    {
+      patterns: ['hours', 'open', 'available', 'schedule', 'time', 'when can', 'appointment'],
+      response: 'Our offices are open:<br><br>🕐 <strong>Monday – Friday: 9:00 AM – 5:00 PM</strong><br><br>To schedule an appointment or free consultation, call us at <a href="tel:7704895122">770-489-5122</a> or visit our <a href="contact-us.html">contact page</a>.'
     },
     {
       patterns: ['cost', 'fee', 'price', 'charge', 'afford', 'expensive', 'rate', 'how much', 'payment'],
